@@ -1,7 +1,7 @@
 public class App
 {
 
-    private final String mensaje = "Hola Aaron. Si ves este mensaje, ha salido todo bien";
+    private final String mensaje = "Hola Aaron. Si ves este mensaje, ha salido nuevamente bien";
 
     public App() {}
 
