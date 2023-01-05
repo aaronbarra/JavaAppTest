@@ -1,9 +1,7 @@
-package com.mycompany.app;
-
 public class App
 {
 
-    private final String mensaje = "Hola Aaron. Si ves este mensaje, significa que la prueba ha sido exitosa";
+    private final String mensaje = "Hola Aaron. Si ves este mensaje, ha salido todo bien";
 
     public App() {}
 
