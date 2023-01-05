@@ -35,6 +35,7 @@ public class Test
         String esperado = "Hola Aaron. Si ves este mensaje, ha salido todo bien";
         try {
             assertEquals(esperado + System.getProperty("line.separator"), mensaje.toString());
+            System.out.println("Prueba exitosa");
         } catch (AssertionError e) {
             fail("El mensaje obtenido no coincide con el esperado");
         }
