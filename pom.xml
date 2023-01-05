@@ -86,7 +86,7 @@
                     <archive>
                         <manifest>
                             <addClasspath>true</addClasspath>
-                            <classpathPrefix>lib/</classpathPrefix>
+                            <classpathPrefix>META-INF/MANIFEST.MF</classpathPrefix>
                             <mainClass>com.mycompany.app.App</mainClass>
                         </manifest>
                     </archive>
@@ -99,12 +99,4 @@
             </plugin>
         </plugins>
     </build>
-    <distributionManagement>
-        <repository>
-            <id>internal.repo</id>
-            <name>Internal repo</name>
-            <url>file:///home/thara/testesb/in</url>
-        </repository>
-    </distributionManagement>
-
 </project>
