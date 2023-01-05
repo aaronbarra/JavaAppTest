@@ -86,8 +86,6 @@
                     <suiteXmlFiles>
                         <suiteXmlFile>src/test/testng.xml</suiteXmlFile>
                     </suiteXmlFiles>
-                </configuration>
-                <configuration>
                     <archive>
                         <manifest>
                             <addClasspath>true</addClasspath>
